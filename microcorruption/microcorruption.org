@@ -1,0 +1,51 @@
+* Commands
+c - continue
+s - step
+n - next
+* CouSs Co
+hardware password auth
+
+main jumps to login 
+
+Get's password
+
+
+** Getsn
+function
+
+
+
+4596:  0e12           push	r14
+4598:  0f12           push	r15
+459a:  2312           push	#0x2
+459c:  b012 4245      call	#0x4542 <INT>
+45a0:  3150 0600      add	#0x6, sp
+45a4:  3041           ret
+
+I think just gets the passsword.
+
+** test_password_valid
+saves the stack pointer address
+
+0x7D set the flag in hsm1
+
+r15
+
+hewwwowww
+
+r15 starts 
+43ee
+
+
+address of return 43e8
+
+
+call of 0x72
+string
+43e8 is the address of result calculated using wrap around. 
+43ee address of password
+
+return address
+
+I think the dma is fucked on return address
+ee
